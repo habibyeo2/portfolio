@@ -10,7 +10,7 @@ body{
 :root{
     --color-primary: #000000;
     --color-secondary: #ffffff;
-    --color-border: #ffffff34;
+    --color-border: #ffffff79;
     --font-staat: 'staatliches', cursive;
     --font-os: 'oswald', sans-serif;
     --font-ram: 'rambla', sans-serif;
@@ -57,7 +57,7 @@ body{
 
 /* end global classes */
 
-/* negin header css */
+/* begin header css */
 
 #header{
     position: fixed;
@@ -128,6 +128,7 @@ body{
     background: url(./asset/about.jpg) no-repeat;
     background-size: 200%;
     background-position: 40% 0;
+    padding: 5em;
 }
 
 
@@ -141,4 +142,41 @@ body{
 }
 
 /* #site-main */
-
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  h2{
+      text-align: center;
+      padding: 2em;
+  }
+  h3{
+      text-align: center;
+  }
+  .projects{
+    height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+  }
+  .item{
+      text-align: center;
+  }
+ 
+  .contact{
+      text-align: center;
+      font-size: 150;
+      padding: 2em;
+  }
+  
