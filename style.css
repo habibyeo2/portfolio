@@ -179,4 +179,7 @@ body{
       font-size: 150;
       padding: 2em;
   }
-  
+
+  .item{
+      grid-row: span;
+  }
